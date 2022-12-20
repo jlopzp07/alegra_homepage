@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Alegra Home</title>
+</head>
+<body>
+    <div class="container">
+        <div class="bg-hero"></div>
+         <div class="switch-container">
+            <label for="switch">Modo nocturno</label>
+            <label class="switch">
+                <input type="checkbox" name="switch" id="switch">
+                <span class="slider round"  onclick="darkMode()"></span>
+              </label>
+         </div>
+        <div class="content">
+            <div class="content-container">
+                <div class="title">
+                    <img src="./icons/social-alegra.svg" alt="">
+                    <h1 class="dark">alegra</h1>
+                 </div>
+                <form action="">
+                    <div class="form-searchbar">
+                        <input type="text" name="search" placeholder="Buscar en Google...">
+                        <img src="./icons/search.svg" alt="" for="search">
+                    </div>
+                </form>
+                 <div class="alegra-solutions">
+                    <a href="https://app.alegra.com">
+                        <div class="solution">
+                            <div class="solution-icon">
+                                <img src="./icons/alegra.svg" alt="">
+                            </div>
+                            <p>Contabilidad</p>
+                        </div>
+                    </a>
+                    <a href="https://tienda.alegra.com/home">
+                        <div class="solution">
+                            <div class="solution-icon">
+                                <img src="./icons/shop.svg" alt="">
+                            </div>
+                            <p>Tienda</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://pos.alegra.com/">
+                        <div class="solution">
+                            <div class="solution-icon">
+                                <img src="./icons/pos.svg" alt="">
+                            </div>
+                            <p>POS</p>
+                        </div>
+                    </a>
+                    <a href="https://nomina.alegra.com/home">
+                        <div class="solution">
+                            <div class="solution-icon">
+                                <img src="./icons/payroll.svg" alt="">
+                            </div>
+                            <p>Nómina</p>
+                        </div>
+                    </a>
+                 </div>
+                 <div class="scroll-container">
+                    <div class="scroll-content">
+                        <p>Desliza para ver lo último de nuestro blog.</p>
+                        <img src="./icons/chevron-down.svg" alt="">
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
